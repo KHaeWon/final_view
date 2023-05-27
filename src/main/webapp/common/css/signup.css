@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+	font-family: Esamanru!important;
+}
+
+body {
+
+	min-height: 100vh;
+	background: -webkit-gradient(linear, left bottom, right top, from(#92b5db),
+		to(#1d466c));
+	background: -webkit-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+	background: -moz-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+	background: -o-linear-gradient(bottom left, #92b5db 0%, #1d466c 100%);
+	background: linear-gradient(to top right, #92b5db 0%, #1d466c 100%);
+}
+
+.input-form {
+	max-width: 680px;
+	margin-top: 80px;
+	padding: 32px;
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+}
+#zipcode{
+	padding-right: inherit;
+	
+}
+#zipcode_btn{
+	padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 0.8;
+    border-radius: 0.3rem;
+	
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+#div_zipcode_btn{
+	padding-top: 35px;
+	padding-left:inherit; 
+}
+.child-custom-control {
+    padding-left: 1.5rem;
+}
