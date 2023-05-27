@@ -1,0 +1,68 @@
+footer section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer a{
+    text-decoration: none;
+}
+footer  a:link {
+    color : black;
+}
+footer  a:visited {
+    color : black;
+}
+footer  a:active {
+    color : black;
+}
+
+footer  .special-a:link {
+    color : #005eff;
+}
+footer  .special-a:visited {
+    color : #005eff;
+}
+footer  .special-a:active {
+    color : #005eff;
+}
+
+#footer-section{
+    font-family: "Esamanru";
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display: flex;
+    height: 60px;
+}
+
+#footer-section2{
+    font-family: "Pretendard";
+    padding: 30px 0;
+    color: #878787;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .footer-information{
+    align-self: center;
+}
+
+footer .footer-link-list{
+    align-self: center;
+    margin-left: auto;
+    display: flex;
+}
+
+footer .footer-link-list li{
+    padding: 0 20px;
+}
+
+footer #footer-logo-holder{
+    width: 195px;
+    height: 40px;
+}
+
+footer .footer-desc{
+    display: flex;
+    font-size: 14px;
+    margin:0 auto;
+}
