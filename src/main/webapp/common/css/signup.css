@@ -27,11 +27,12 @@ body {
 	-moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
 }
+
 #zipcode{
 	padding-right: inherit;
 	
 }
-#zipcode_btn{
+.code_num_btn{
 	padding: 0.5rem 1rem;
     font-size: 1rem;
     line-height: 0.8;
@@ -41,7 +42,7 @@ body {
     background-color: #007bff;
     border-color: #007bff;
 }
-#div_zipcode_btn{
+.div_btn{
 	padding-top: 35px;
 	padding-left:inherit; 
 }
