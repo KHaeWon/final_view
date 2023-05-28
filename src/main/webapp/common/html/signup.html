@@ -77,18 +77,22 @@
 								<option value=""></option>
 								<option>남자</option>
 								<option>여자</option>
-								<option>밝히고 싶지 않음</option>
+								<option>밝히고 싶지 않음</opton>
 							</select>
 							<div class="invalid-feedback">성별을 선택해주세요.</div>
 						</div>
-						<div class="col-md-6 mb-3">
-							<label for="telnum">연락처</label> <input type="text"
-								class="form-control" id="telnum" placeholder="010-xxxx-xxxx" value=""
+						<div class="col-md-4 mb-2">
+							<label for="sample4_postcode">연락처</label> <input type="text"
+								class="form-control" id="telnum" placeholder="-제외 숫자만 입력"
 								required>
-							<div class="invalid-feedback">연락처를 입력해주세요.</div>
+							<div class="invalid-feedback">전화번호를 입력해주세요.</div>
+						</div>
+						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
+							<input type="button" id="zipcode_btn" class="code_num_btn"
+								onclick="" value="인증번호 발송">
 						</div>
 					</div>
-
+					
 					<div class="row">
 						<div class="col-md-4 mb-2">
 							<label for="sample4_postcode">우편번호</label> <input type="text"
@@ -96,8 +100,8 @@
 								required>
 							<div class="invalid-feedback">우편번호를 통해 주소를 입력해주세요.</div>
 						</div>
-						<div class="col-md-3 mb-2" id="div_zipcode_btn">
-							<input type="button" id="zipcode_btn"
+						<div class="col-md-1.5 mb-2 div_btn" id="div_zipcode_btn">
+							<input type="button" id="zipcode_btn" class="code_num_btn"
 								onclick="sample4_execDaumPostcode()" value="우편번호 찾기">
 						</div>
 					</div>
@@ -129,23 +133,6 @@
 					</div>
 
 
-
-					<!-- <div class="row">
-						<div class="col-md-8 mb-3">
-							<label for="root">가입 경로</label> <select
-								class="custom-select d-block w-100" id="root">
-								<option value=""></option>
-								<option>검색</option>
-								<option>카페</option>
-							</select>
-							<div class="invalid-feedback">가입 경로를 선택해주세요.</div>
-						</div>
-						<div class="col-md-4 mb-3">
-							<label for="code">추천인 코드</label> <input type="text"
-								class="form-control" id="code" placeholder="" required>
-							<div class="invalid-feedback">추천인 코드를 입력해주세요.</div>
-						</div>
-					</div> -->
 					<hr class="mb-4">
 
 					<div class="row">
